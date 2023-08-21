@@ -4,8 +4,8 @@
 function doubleChar(str) {
     let doubleString = '';
  for (  i = 0; i < str.length; i++){
-      doubleString = doubleString + str[i] + str[i]
+      doubleString += str[i] + str[i]
   };
   return doubleString
 };
- doubleChar("pasha")
+ doubleChar("Pasha")
