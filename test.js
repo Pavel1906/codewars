@@ -1,11 +1,8 @@
 
 
-
-function doubleChar(str) {
-    var al = '';
- for ( var i = 0; i < str.lenght; i++){
-      al = al + str[i] + str[i]
-  };
-  return al
-};
- doubleChar("pasha")
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return   Math.abs(dadYearsOld - sonYearsOld * 2)
+}
+console.log(twiceAsOld(50,10))
+console.log(twiceAsOld(22,10))
+console.log(twiceAsOld(22,15))
